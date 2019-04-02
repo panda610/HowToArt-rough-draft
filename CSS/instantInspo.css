@@ -1,0 +1,400 @@
+/*instantInspo page*/
+/*These(body-background) are called for the entire instantInspo page.*/
+
+/*This overflow is called to set what shows when content overflows. 
+The hidden is called on the property to set the visibity as hidden*/
+body {    
+    overflow-x: hidden; 
+}
+
+/*This affects every img in the instantInspo page*/
+img {               
+    width: 100%;    
+}
+
+/*This div affects every picture*/
+div {                           
+    position: absolute;         
+    opacity: 0;                
+    transition-duration: 5s;    
+}
+
+/*This div hover affects every picture*/
+div:hover {                       
+    opacity: 1;                   
+    transition-duration: 0.3s;    
+}
+
+/*black and white background image of instantinspo page*/
+.instantInspoBackground {       
+    width: 100vw;         
+    top: 0vw;             
+    left: 0vw;             
+    opacity: 1;            
+}
+
+/*HowToArt navbar*/
+.howToArt {            
+    width: 28.39vw;     
+    top: 0vw;       
+    left: 0vw;          
+}
+
+/*About navbar*/
+.about {               
+    width: 21.12vw;      
+    top: 0vw;         
+    left: 25.9vw;       
+}
+
+/*Lessons navbar*/
+.lessons {               
+    width: 19.44vw;       
+    top: 0vw;          
+    left: 45.3vw;        
+}
+
+/*InstantInspo navbar*/
+.instantInspo {         
+    width: 17.84vw;      
+    top: 0vw;          
+    left: 63.85vw;        
+}
+
+/*Gallery navbar*/
+.gallery {            
+    width: 18.30vw;    
+    top: 0vw;         
+    left: 80vw;       
+}
+
+/*HowToArt navbar*/
+.title {            
+    width: 57.78vw;     
+    top: 8.31vw;       
+    left: 19.31vw;          
+}
+
+/*rainbows on left edge of pic*/
+.leftEdge {               
+    width: 17.10vw;      
+    top: 19.99vw;         
+    left: 0.2vw;       
+}
+
+/*rainbows on right edge of pic*/
+.rightEdge {               
+    width: 13.89vw;      
+    top: 41.1vw;          
+    left: 86vw;       
+    
+}
+
+/*rainbows on bottom edge of pic*/
+.bottomEdge {         
+    width: 74.35vw;      
+    top: 103.8vw;          
+    left: 0.1vw;        
+}
+
+/*panda image*/
+.panda {            
+    width: 26.31vw;    
+    top: 9.4vw;          
+    left: 73.45vw;        
+}
+
+/*bunny image*/
+.bunny {               
+    width: 21.51vw;       
+    top: 65.61vw;          
+    left: 3vw;        
+    z-index: 5;
+}
+
+/*gecko cyborg image*/
+.cyborg {         
+    width: 21.31vw;      
+    top: 97.4vw;          
+    left: 78.7vw;        
+    z-index: 10;
+}
+
+/*rainbow frame around gecko cyborg*/
+.cyborgFrame {               
+    width: 27.31vw;       
+    top: 90.5vw;          
+    left: 72.69vw;        
+    z-index: 5;
+}
+
+/*rainbow frame around text*/
+.frame {            
+    width: 87.37vw;    
+    top: 31.25vw;          
+    left: 0.15vw;       
+}
+
+/*this is for all artworks*/
+.zoom {         
+    width: 0vw;    
+}
+
+/*small, orginal image on rainbow background*/
+.prompt1 {         
+    width: 13.16vw;      
+    top: 44.8vw;          
+    left: 21.9vw;        
+    z-index: 10;
+}
+
+/*zoomed prompt, full image*/
+.prompt1a {
+    position: absolute;
+    width: 7vw;       
+    top: 46vw;            
+    left: 23vw;          
+    z-index: 0;
+    opacity:0;
+    transition-duration: 0.1s;
+}
+
+/*zooms prompt*/
+.prompt1:active + .prompt1a {     
+    width: 30vw;                
+    top: 52vw;                  
+    left: 31vw;                 
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*small, orginal image on rainbow background*/
+.prompt2 {            
+    width: 14.83vw;    
+    top: 44.8vw;         
+    left: 38.6vw;        
+    z-index: 10;
+}
+
+/*zoomed prompt, full image*/
+.prompt2a {
+    position: absolute;
+    width: 7vw;               
+    top: 46vw;                 
+    left: 40vw;                 
+    z-index: 0;
+    opacity:0;
+    transition-duration: 0.1s;
+}
+
+/*zooms prompt*/
+.prompt2:active + .prompt2a {     
+    width: 30vw;                
+    top: 52vw;                  
+    left: 31vw;                 
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*small, orginal image on rainbow background*/
+.prompt3 {               
+    width: 14.03vw;       
+    top: 44.5vw;          
+    left: 56.8vw;        
+    z-index: 10;
+}
+
+/*zoomed prompt, full image*/
+.prompt3a {
+    position: absolute;
+    width: 7vw;                
+    top: 46vw;                  
+    left: 58vw;                 
+    z-index: 0;
+    opacity:0;
+    transition-duration: 0.1s;
+}
+
+/*zooms prompt*/
+.prompt3:active + .prompt3a {     
+    width: 30vw;                
+    top: 52vw;                 
+    left: 31vw;                
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*small, orginal image on rainbow background*/
+.prompt4 {        
+    width: 13.96vw;      
+    top: 57.95vw;          
+    left: 21.4vw;        
+    z-index: 10;
+}
+
+/*zoomed prompt, full image*/
+.prompt4a {
+    position: absolute;
+    width: 7vw;       
+    top: 59vw;           
+    left: 23vw;          
+    z-index: 0;
+    opacity:0;
+    transition-duration: 0.1s;
+}
+
+/*zooms prompt*/
+.prompt4:active + .prompt4a {      
+    width: 30vw;                
+    top: 52vw;                  
+    left: 31vw;                
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*small, orginal image on rainbow background*/
+.prompt5 {            
+    width: 13.63vw;    
+    top: 57.4vw;          
+    left: 38.8vw;        
+    z-index: 10;
+}
+
+/*zoomed prompt, full image*/
+.prompt5a {
+    position: absolute;
+    width: 7vw;        
+    top: 59vw;            
+    left: 40vw;          
+    z-index: 0;
+    opacity:0;
+    transition-duration: 0.1s;
+}
+
+/*zooms prompt*/
+.prompt5:active + .prompt5a {     
+    width: 30vw;               
+    top: 52vw;                 
+    left: 31vw;                 
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*small, orginal image on rainbow background*/
+.prompt6 {         
+    width: 14.09vw;      
+    top: 57.6vw;          
+    left: 56.9vw;       
+    z-index: 10;
+}
+
+/*zoomed prompt, full image*/
+.prompt6a {
+    position: absolute;
+    width: 7vw;        
+    top: 59vw;           
+    left: 58vw;          
+    z-index: 0;
+    opacity:0;
+    transition-duration: 0.1s;
+}
+
+/*zooms prompt*/
+.prompt6:active + .prompt6a {      
+    width: 30vw;                
+    top: 52vw;                  
+    left: 31vw;                
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*small, orginal image on rainbow background*/
+.prompt7 {            
+    width: 14.16vw;    
+    top: 71.4vw;          
+    left: 21.4vw;        
+    z-index: 10;
+}
+
+/*zoomed prompt, full image*/
+.prompt7a {
+    position: absolute;
+    width: 7vw;        
+    top: 73vw;            
+    left: 23vw;         
+    z-index: 0;
+    opacity:0;
+    transition-duration: 0.1s;
+}
+
+/*zooms prompt*/
+.prompt7:active + .prompt7a {     
+    width: 30vw;                
+    top: 52vw;                  
+    left: 31vw;                
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*small, orginal image on rainbow background*/
+.prompt8 {         
+    width: 13.96vw;      
+    top: 71.1vw;          
+    left: 38.8vw;        
+    z-index: 10;
+}
+
+/*zoomed prompt, full image*/
+.prompt8a {
+    position: absolute;
+    width: 7vw;        
+    top: 73vw;           
+    left: 40vw;         
+    z-index: 0;
+    opacity:0;
+    transition-duration: 0.1s;
+}
+
+/*zooms prompt*/
+.prompt8:active + .prompt8a {       
+    width: 30vw;                
+    top: 52vw;                  
+    left: 31vw;                 
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*small, orginal image on rainbow background*/
+.prompt9 {            
+    width: 13.96vw;    
+    top: 71.5vw;          
+    left: 56.6vw;        
+    z-index: 10;
+}
+
+/*zoomed prompt, full image*/
+.prompt9a {
+    position: absolute;
+    width: 7vw;        
+    top: 73vw;            
+    left: 58vw;         
+    z-index: 0;
+    opacity:0;
+    transition-duration: 0.1s;
+}
+
+/*zooms prompt*/
+.prompt9:active + .prompt9a {      
+    width: 30vw;                
+    top: 52vw;                 
+    left: 31vw;                 
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}

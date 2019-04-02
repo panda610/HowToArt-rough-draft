@@ -1,0 +1,386 @@
+/*gallery page*/
+/*These(body-background) are called for the entire gallery page.*/
+body {    
+    overflow-x: hidden; 
+    /*This overflow is called to set what shows when content overflows. 
+      The hidden is called on the property to set the visibity as hidden*/
+}
+
+img {               /*This affects every img in the gallery page*/
+    width: 100%;    /*set the width as 100% */
+}
+
+/*This div affects every picture*/
+div {                           
+    position: absolute;         
+    opacity: 0;                 
+    transition-duration: 5s;    
+}
+
+/*This div hover affects every picture*/
+div:hover {                       
+    opacity: 1;                  
+    transition-duration: 0.3s;    
+}
+
+/*black and white background image of gallery page*/
+.galleryBackground {       
+    width: 100vw;         
+    top: 0vw;              
+    left: 0vw;             
+    opacity: 1;           
+}
+
+/*HowToArt navbar*/
+.howToArt {           
+    width: 30.96vw;     
+    top: 1.5vw;       
+    left: -0.3vw;         
+}
+
+ /*About navbar */
+.about {               
+    width: 18.9vw;      
+    top: 1.2vw;         
+    left: 28.9vw;       
+}
+
+/*Lessons navbar */
+.lessons {               
+    width: 19.89vw;       
+    top: 0.8vw;          
+    left: 45.8vw;        
+}
+
+ /*InstantInspo navbar*/
+.instantInspo {         
+    width: 18.95vw;     
+    top: .4vw;          
+    left: 62.9vw;        
+}
+
+ /*Gallery navbar for gallery page*/
+.gallery {            
+    width: 19.98vw;   
+    top: 0vw;          
+    left: 78.9vw;        
+}
+
+/*context about the "direction of submitting artworks" image*/
+.submissions {           
+    width: 67.76vw;  
+    top: 73.7vw;        
+    left: 16.4vw;        
+}
+
+.artwork {         /*this is for all artworks*/
+    width: 0vw;    /*set the width of the image*/
+}
+
+/*1st student's artwork image*/
+.art1 {                   
+    width: 13.8vw;       
+    top: 45.3vw;          
+    left: 0.9vw;          
+    z-index: 10;          
+}
+
+/*polarBear image*/
+.polarBear {
+    position: absolute;
+    width: 7.02vw;       
+    top: 60vw;            
+    left: 5.1vw;          
+    z-index: 0;
+    opacity:0;
+    transform: rotate(320deg);
+    transition-duration: 0.1s;
+}
+
+
+/*zoom in the polar bear when it's clicked*/  
+.art1:active + .polarBear {     
+    width: 20vw;                
+    top: 25vw;                  
+    left: 35vw;                 
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+.art2 {                    /*2nd student's artwork image*/
+    width: 11.44vw;        /*set the width of the image*/
+    top: 35.7vw;           /*set the top position of the image*/
+    left: 12.7vw;          /*set the left position of the image*/
+    z-index: 10;           /*set the 2nd art to be in front of the wall*/
+}
+
+/*alicorn image*/
+.alicorn {
+    position: absolute;
+    width: 6.72vw;         
+    top: 45vw;             
+    left: 15.5vw;         
+    z-index: 0;
+    opacity: 0;
+    transform: rotate(310deg);
+    transition-duration: 0.1s;
+}
+
+/*zoom in the alicorn when it's clicked*/  
+.art2:active + .alicorn {       
+    width: 40vw;                
+    top: 25vw;                  
+    left: 30vw;                 
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+ /*3rd student's artwork image*/
+.art3 {                
+    width: 7.27vw;     
+    top: 28.08vw;       
+    left: 22vw;       
+    z-index: 10;       
+}
+
+/*sunMoon image*/
+.sunMoon {
+    position: absolute;
+    width: 4.27vw;       
+    top: 36.36vw;            
+    left: 24.3vw;         
+    z-index: 0;
+    opacity: 0;
+    transform: rotate(330deg);
+    transition-duration: 0.1s;
+}
+
+/*zoom in the sunMoon is clicked*/  
+.art3:active + .sunMoon {    
+    width: 40vw;              
+    top: 25vw;                
+    left: 35vw;               
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+/*4th student's artwork image*/
+.art4 {                
+    width: 11.35vw;   
+    top: 22.3vw;     
+    left: 29.6vw;     
+    z-index: 10;      
+}
+
+/*whiteFox image*/
+.whiteFox {
+    position: absolute;
+    width: 4.27vw;           
+    top: 27.36vw;            
+    left: 33.3vw;           
+    z-index: 0;
+    opacity: 0;
+    transition-duration: 0.1s;
+}
+
+/*zoom in the whiteForx when it's clicked*/  
+.art4:active + .whiteFox {    
+    width: 40vw;              
+    top: 25vw;                 
+    left: 30vw;                
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*5th student's artwork image*/
+.art5 {               
+    width: 11.91vw;    
+    top: 21.1vw;      
+    left: 43vw;      
+    z-index: 10;       
+}
+
+/*sword image*/
+.sword {
+    position: absolute;
+    width: 4.27vw;           
+    top: 27.15vw;            
+    left: 47.7vw;            
+    z-index: 0;
+    opacity: 0;
+    transition-duration: 0.1s;
+}
+
+/*zoom in on the sword when it's clicked*/  
+.art5:active + .sword {        
+    width: 25vw;               
+    top: 25vw;                
+    left: 35vw;                
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*6th student's artwork image*/
+.art6 {                
+    width: 5.02vw;     
+    top: 15.9vw;       
+    left: 55.5vw;     
+    z-index: 10;       
+}
+
+/*city image*/
+.city {
+    position: absolute;
+    width: 2vw;             
+    top: 25.9vw;            
+    left: 58.35vw;          
+    z-index: 0;
+    opacity: 0;
+    transform: rotate(330deg);
+    transition-duration: 0.1s;
+}
+
+ /*zoom in the city when it's clicked*/  
+.art6:active + .city {       
+    width: 40vw;             
+    top: 25vw;               
+    left: 30vw;              
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+ /*7th student's artwork image*/
+.art7 {                
+    width: 10.37vw;   
+    top: 16.5vw;       
+    left: 61.8vw;      
+    z-index: 10;       
+}
+
+/*galaxy image*/
+.galaxy {
+    position: absolute;
+    width: 4.27vw;           
+    top: 22.15vw;            
+    left: 65.7vw;            
+    z-index: 0;
+    opacity: 0;
+    transition-duration: 0.1s;
+}
+
+/*zoom in the galaxy when it's clicked*/  
+.art7:active + .galaxy {       
+    width: 40vw;               
+    top: 25vw;                 
+    left: 30vw;                
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*8th student's artwork image*/
+.art8 {                
+    width: 9.89vw;     
+    top: 16vw;         
+    left: 72.6vw;      
+    z-index: 10;       
+}
+
+/*bird image*/
+.bird {
+    position: absolute;
+    width: 4.27vw;           
+    top: 20vw;            
+    left: 76vw;            
+    z-index: 0;
+    opacity: 0;
+    transition-duration: 0.1s;
+}
+
+/*zoom in the bird when it's clicked*/  
+.art8:active + .bird {       
+    width: 25vw;               
+    top: 25vw;                 
+    left: 35vw;                
+    z-index: 15;
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+/*9th student's artwork image*/
+.art9 {                
+    width: 9.05vw;     
+    top: 13vw;       
+    left: 86.9vw;     
+    z-index: 10;       
+}
+
+/*BTS image*/
+.BTS {
+    position: absolute;
+    width: 4vw;             
+    top: 26.9vw;            
+    left: 91vw;             
+    z-index: 0;
+    opacity: 0;
+    transform: rotate(25deg);
+    transition-duration: 0.1s;
+}
+
+/*zoom in when the bts image is clicked*/  
+.art9:active + .BTS {          
+    width: 25vw;              
+    top: 25vw;                
+    left: 35vw;               
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+
+/*1st wall image*/
+.wall1 {                 
+    width: 31.25vw;      
+    top: 14.6vw;       
+    left: 0vw;           
+    z-index: 5;
+}
+
+/*2nd wall image*/
+.wall2 {               
+    width: 34.94vw;    
+    top: 8.4vw;         
+    left: 27.2vw;         
+    z-index: 5;
+}
+
+/*3rd wall image*/
+.wall3 {               
+    width: 23.8vw;   
+    top: 13.4vw;         
+    left: 60.02vw;         
+}
+
+/*4th wall image*/
+.wall4 {                  
+    width: 16.69vw;       
+    top: 10.6vw;          
+    left: 83.3vw;         
+}
+
+/*floor image*/
+.floor{                   
+    width: 73.4vw;       
+    top: 36.4vw;          
+    left: 20.5vw;         
+}

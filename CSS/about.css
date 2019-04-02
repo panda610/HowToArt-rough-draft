@@ -1,0 +1,116 @@
+/*about page*/
+/*This overflow is called to set what shows when content overflows. 
+  The hidden is called on the property to set the visibity as hidden*/
+body {    
+    overflow-x: hidden; 
+}
+
+/*This affects every img in the lessons page*/
+img {               
+    width: 100%;    
+}
+
+/*This div affects every picture*/
+div {                          
+    position: absolute;         
+    opacity: 0;                 
+    transition-duration: 5s;    
+}
+
+/*This div hover affects every picture*/
+div:hover {                       
+    opacity: 1;                  
+    transition-duration: 0.3s;   
+}
+
+/*black and white, full background image*/
+.aboutBackground {       
+    width: 100vw;          
+    top: 0vw;             
+    left: 0vw;             
+    opacity: 1;            
+}
+
+/*COLORED HowToArt navbar*/
+.howToArt {             
+    width: 26.28vw;     
+    top: .1vw;       
+    left: .1vw;          
+}
+
+/*COLORED About navbar*/
+.about {                
+    width: 22.12vw;      
+    top: 0.2vw;        
+    left: 25.4vw;       
+}
+
+/*COLORED Lessons navbar*/
+.lessons {                
+    width: 20.57vw;       
+    top: .1vw;          
+    left: 46.5vw;        
+}
+
+/*COLORED InstantInspo navbar*/
+.instantInspo {          
+    width: 19.02vw;      
+    top: 0vw;          
+    left: 64.8vw;        
+}
+
+ /*COLORED Gallery navbar*/
+.gallery {            
+    width: 17.66vw;   
+    top: 0.2vw;         
+    left: 82.4vw;       
+}
+
+/*COLORED title of the page*/
+.title {               
+    width: 74.91vw;    
+    top: 13.6vw;          
+    left: 18.1vw;       
+}
+
+ /*COLORED samyra portrait image*/
+.samyra {              
+    width: 31.99vw;    
+    top: 36.2vw;          
+    left: 0.18vw;        
+}
+
+/*COLORED samyra about content*/
+.aboutSamyra {               
+    width: 71.17vw;    
+    top: 34.3vw;          
+    left: 28.7vw;       
+}
+
+ /*COLORED jenny portrait image*/
+.jenny {              
+    width: 31.87vw;   
+    top: 68vw;          
+    left: 65vw;       
+}
+
+/*COLORED jenny about content*/
+.aboutJenny {               
+    width: 68.01vw;    
+    top: 65.5vw;         
+    left: 0.1vw;        
+}
+
+/*COLORED andy portrait image*/
+.andy {               
+    width: 39.06vw;    
+    top: 102vw;          
+    left: 0.18vw;        
+}
+
+/*COLORED andy about content*/
+.aboutAndy {               
+    width: 72.65vw;    
+    top: 96.6vw;
+    left: 27.5vw;        
+}

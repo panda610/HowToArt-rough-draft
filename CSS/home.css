@@ -1,0 +1,230 @@
+/*home page*/
+/*This code is to make the click on the mouse to have a smooth transition.*/
+html {
+  scroll-behavior: smooth;
+} 
+
+body {    
+    overflow-x: hidden; 
+    /*This overflow is called to set what shows when content overflows. 
+      The hidden is called on the property to set the visibity as hidden*/
+}
+
+/*This affects every img in the home page*/
+img {               
+    width: 100%;    
+}
+/*This @media screen is so that if the web browser small enough, 
+  then the arrows will disappear as it's not needed if the entire thing appears.*/
+@media screen and (max-width: 1000px) {
+  #visible_top {
+    display: none;
+  }
+  #visible_bottom {
+    display: none;
+  }
+}
+
+/*This id is called when visible top is clicked. The webpage goes to 0px as the position.*/ 
+#up {
+    position: absolute;
+    top: 0px;
+}
+
+/*This id creates the positioning and size of the top arrow */
+#visible_top {
+    z-index: 20;
+    position: absolute;
+    top: 57vw;
+    left: 45vw;
+    opacity: 1;
+    width: 10vw;
+}
+
+/*This id creates the positioning and size of the bottom arrow*/
+#visible_bottom {
+    z-index: 20;
+    position: absolute;
+    width: 10vw;    
+    top: 120vw;           
+    left: 45vw;
+    opacity: 1;
+}
+
+/*This id is called when visible_bottom is clicked. It gets to the 62.8vw position.*/
+#down {
+    position: absolute;
+    top: 62.8vw;
+}
+
+/*This div affects every picture*/
+div {                           
+    position: absolute;         
+    opacity: 0;                 
+    transition-duration: 5s;   
+}
+
+/*This div hover affects every picture*/
+div:hover {                       
+    opacity:1;                     
+    transition-duration: 0.3s;    
+}
+
+/*black and white background image*/
+.homeBackground {   
+    width: 100vw;   
+    top: 0vw;        
+    left: 0vw;       
+    opacity: 1;      
+}
+
+/*HowToArt navbar*/
+.howToArt {            
+    width: 31.03vw;    
+    top: 0.75vw;       
+    left: 0.3vw;         
+}
+
+/*About navbar*/
+.about {                
+    width: 21.73vw;     
+    top: 0.9vw;           
+    left: 26.7vw;         
+}
+
+/*Lessons navbar*/
+.lessons {             
+    width: 17.21vw;   
+    top: 0.8vw;         
+    left: 46.7vw;      
+}
+
+/*InstantInspo navbar*/
+.instantInspo {        
+    width: 23.18vw;    
+    top: .25vw;
+    left: 62vw;        
+}
+
+/*Gallery navbar*/
+.gallery {             
+    width: 17.59vw;   
+    top: 0.1vw;          
+    left: 82.2vw;        
+}
+
+/*ourMission image*/
+.ourMission {              
+    width: 53.39vw;        
+    top: 62.5vw;           
+    left: 25.9vw;           
+}
+
+/*missionStatement1 image*/
+.missionStatement1 {          
+    width: 48.05vw;           
+    top: 77.1vw;                
+    left: 7.1vw;                
+    animation: sparkle;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+/*missionStatement2 image*/
+.missionStatement2 {          
+    width: 41.45vw;          
+    top: 74vw;                
+    left: 53.2vw;                
+    animation: sparkle;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+/*missionStatement4 image*/
+.missionStatement3 {          
+    width: 44.78vw;          
+    top: 93.5vw;                
+    left: 7.4vw;                
+    animation: sparkle;
+    animation-duration: 4s;
+    animation-delay: 2.2s;
+    animation-iteration-count: infinite;
+}
+
+/*missionStatement5 image*/
+.missionStatement4 {          
+    width: 55.52vw;           
+    top: 91vw;                
+    left: 44vw;                
+    animation: sparkle;
+    animation-duration: 4.7s;
+    animation-delay: 1.1s;
+    animation-iteration-count: infinite;
+}
+
+/*give fluent effect to the mission statements*/
+@keyframes sparkle {
+    0% {opacity: 0.3;}
+    20% {opacity: 0.9;}
+    40% {opacity: 0.2;}
+    60% {opacity: 1;}
+    80% {opacity: 0.6;}
+}
+
+/*jenny image*/
+.jenny {               
+    width: 24.87vw;    
+    top: 17.4vw;       
+    left: 0.4vw;        
+}
+
+/*jenny image*/
+.panda1 {              
+    width: 13.12vw;    
+    top: 9.15vw;         
+    left: 4.8vw;         
+}
+
+/*2nd panda image*/
+.panda2 {              
+    width: 8.98vw;     
+    top: 23.4vw;         
+    left: 18.3vw;        
+}
+
+/*3rd panda image*/
+.panda3 {              
+    width: 21.48vw;    
+    top: 35.3vw;         
+    left: 17.4vw;        
+}
+
+/*samyra image*/
+.samyra {              
+    width: 43.15vw;    
+    top: 9.05vw;          
+    left: 21.7vw;        
+}
+
+/*bunny image*/
+.bunny {               
+    width: 19.09vw;    
+    top: 10.3vw;         
+    left: 55.8vw;        
+}
+
+/*andy image*/
+.andy {               
+    width: 25.38vw;    
+    top: 6.5vw;         
+    left: 74vw;        
+}
+
+/*cyborg image*/
+.cyborg {                 
+    width: 24.62vw;      
+    top: 35vw;            
+    left: 58.5vw;           
+}
+

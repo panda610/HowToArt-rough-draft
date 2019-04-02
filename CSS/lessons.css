@@ -1,0 +1,333 @@
+/*lessons page*/
+/*These(body-background) are called for the entire instantInspo page.*/
+body {    
+    overflow-x: hidden; 
+    /*This overflow is called to set what shows when content overflows. 
+      The hidden is called on the property to set the visibity as hidden*/
+}
+
+/*This affects every img in the instantInspo page*/
+img {               
+    width: 100%;    
+}
+
+/*This div hover affects every picture*/
+div {                           
+    position: absolute;         
+    opacity: 0;                 
+    transition-duration: 5s;    
+}
+
+/*This div hover affects every picture*/
+div:hover {                       
+    opacity: 1;                   
+    transition-duration: 0.3s;    
+}
+
+/*black and white background image of lessons page*/
+.lessonsBackground {       
+    width: 100vw;          
+    top: 0vw;              
+    left: 0vw;             
+    opacity: 1;            
+}
+
+/*howToArt navbar*/
+.howToArt {            
+    width: 29.51vw;     
+    top: 1.8vw;       
+    left: 6.2vw;         
+}
+
+/*about narbar*/
+.about {               
+    width: 18.27vw;      
+    top: 1.75vw;         
+    left: 34vw;       
+}
+
+/*lessons navbar*/
+.lessons {               
+    width: 14.98vw;       
+    top: 1.2vw;          
+    left: 51.2vw;        
+}
+
+/*instantInspo navbar*/
+.instantInspo {         
+    width: 17.20vw;      
+    top: 0.9vw;          
+    left: 63.5vw;        
+}
+
+/* gallery navbar*/
+.gallery {            
+    width: 18.56vw;    
+    top: 0.9vw;          
+    left: 78.7vw;        
+}
+
+/*title image*/
+.title {            
+    width: 47.09vw;    
+    top: 8.8vw;          
+    left: 27.3vw;        
+}
+
+/*content1 image*/
+.content1 {               
+    width: 91.44vw;    
+    top: 20.3vw;          
+    left: 4.1vw;        
+    animation: sparkle;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+
+/*content2 image*/
+.content2 {               
+    width: 89.91vw;    
+    top: 30.8vw;          
+    left: 4.8vw;        
+    animation: sparkle;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+/*content3 image*/
+.content3 {         
+    width: 90.14vw;    
+    top: 41.7vw;          
+    left: 6vw;        
+    animation: sparkle;
+    animation-duration: 4s;
+    animation-delay: 2.2s;
+    animation-iteration-count: infinite;
+}
+
+/*content4 image*/
+.content4 {            
+    width: 92.28vw;    
+    top: 52.7vw;          
+    left: 6.1vw;        
+    animation: sparkle;
+    animation-duration: 4.7s;
+    animation-delay: 1.1s;
+    animation-iteration-count: infinite;
+    
+}
+/*Content5 image*/
+.content5 {            
+    width: 91.44vw;    
+    top: 74.5vw;          
+    left: 6vw;       
+    animation: sparkle;
+    animation-duration: 5s;
+    animation-delay: 1.5s;
+    animation-iteration-count: infinite;
+}
+
+/*content6 image*/
+.content6 {               
+    width: 94.04vw;    
+    top: 88.5vw;         
+    left: 4.5vw;       
+    animation: sparkle;
+    animation-duration: 4s;
+    animation-delay: 2.2s;
+    animation-iteration-count: infinite;
+}
+
+/*content7 image*/
+.content7 {               
+    width: 94.5vw;    
+    top: 115.1vw;          
+    left: 4.5vw;        
+    animation: sparkle;
+    animation-duration: 4.7s;
+    animation-delay: 1.1s;
+    animation-iteration-count: infinite;
+}
+
+/*give fluent effect to the content*/
+@keyframes sparkle {
+    0% {opacity: 0.3;}
+    20% {opacity: 0.9;}
+    40% {opacity: 0.2;}
+    60% {opacity: 1;}
+    80% {opacity: 0.6;}
+}
+/*content8 image*/
+.content8 {         
+    width: 95.95vw;    
+    top: 188vw;          
+    left: 1.8vw;       
+}
+
+/*popArts image*/
+.popArts {            
+    width: 96.94vw;    
+    top: 146.9vw;          
+    left: 1.3vw;        
+}
+
+/*it starts from a zoom in phase of an image then it expands out*/
+.popArtWorks {
+    width: 0vw;
+}
+/*Maybe image when it's been rotated*/
+.maybeRotated {            
+    width: 20.57vw;        
+    top: 161.9vw;           
+    left: 8.5vw;           
+    z-index: 10;           
+}
+
+/*maybe image*/
+.maybe {
+    position: absolute;
+    width: 7.02vw;        
+    top: 167.9vw;            
+    left: 14.5vw;          
+    z-index: 0;
+    opacity: 0;
+    transform: rotate(45deg);
+    transition-duration: 0.1s;
+}
+
+/*rotates the maybe image*/
+.maybeRotated:active + .maybe {       
+    width: 30vw;               
+    top: 155vw;                 
+    left: 34vw;                 
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+/*frida image after it's been rotated*/
+.fridaRotated {                    
+    width: 13.99vw;        
+    top: 153.1vw;           
+    left: 27.6vw;           
+    z-index: 10;           
+}
+
+/*frida image*/
+.frida {
+    position: absolute;
+    width: 7.02vw;       
+    top: 157vw;           
+    left: 31vw;         
+    z-index: 0;
+    opacity: 0;
+    transform: rotate(3deg);
+    transition-duration: 0.1s;
+}
+
+/*Rotates the frida image*/
+.fridaRotated:active + .frida {     
+    width: 30vw;                
+    top: 150vw;                  
+    left: 34vw;                 
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+
+/*Image of inthecar when it's been rotated*/
+.inTheCarRotated {                    
+    width: 25.92vw;        
+    top: 165.7vw;           
+    left: 37.9vw;           
+    z-index: 10;           
+}
+
+/*inTheCar image*/
+.inTheCar {
+    position: absolute;
+    width: 12.02vw;        
+    top: 172vw;            
+    left: 45vw;          
+    z-index: 0;
+    opacity: 0;
+    transform: rotate(15deg);
+    transition-duration: 0.1s;
+}
+
+/*Makes the inthecar image to rotate*/
+.inTheCarRotated:active + .inTheCar {     
+    width: 30vw;                
+    top: 155vw;                  
+    left: 34vw;                  
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+
+/*Sets the position when the varoom image has rotated*/
+.varoomRotated {                   
+    width: 15.98vw;        
+    top: 150.6vw;           
+    left: 51.5vw;          
+    z-index: 10;           
+}
+
+/*varoom image*/
+.varoom {
+    position: absolute;
+    width: 7.02vw;        
+    top: 155vw;            
+    left: 55.1vw;          
+    z-index: 0;
+    opacity: 0;
+    transform: rotate(2deg);
+    transition-duration: 0.1s;
+}
+/*rotates the varoom image clicked*/  
+.varoomRotated:active + .varoom {      
+    width: 30vw;                
+    top: 155vw;                 
+    left: 34vw;                  
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition-duration: 1s;
+}
+/*shotMarilyns rotated image*/
+.shotMarilynsRotated {                   
+    width: 22.71vw;        
+    top: 159vw;          
+    left: 73.1vw;          
+    z-index: 10;           
+}
+
+/*shotMarilyns image*/
+.shotMarilyns {
+    position: absolute;
+    width: 11vw;        
+    top: 165vw;            
+    left: 78vw;          
+    z-index: 0;
+    opacity: 0;
+    transform: rotate(340deg);
+    transition-duration: 0.1s;
+}
+/*zoom in the polar bear when it's clicked*/  
+.shotMarilynsRotated:active + .shotMarilyns {    
+    width: 30vw;                
+    top: 155vw;                  
+    left: 34vw;               
+    z-index: 15;
+    opacity: 1;
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+/*title tryIt image*/
+.tryIt {               
+    width: 43.04vw;    
+    top: 210.5vw;          
+    left: 25.7vw;        
