@@ -1,13 +1,13 @@
 /*gallery page*/
-/*These(body-background) are called for the entire gallery page.*/
 body {    
     overflow-x: hidden; 
     /*This overflow is called to set what shows when content overflows. 
       The hidden is called on the property to set the visibity as hidden*/
 }
 
-img {               /*This affects every img in the gallery page*/
-    width: 100%;    /*set the width as 100% */
+/*This affects every img in the gallery page*/
+img {               
+    width: 100%;    
 }
 
 /*This div affects every picture*/
@@ -73,8 +73,9 @@ div:hover {
     left: 16.4vw;        
 }
 
-.artwork {         /*this is for all artworks*/
-    width: 0vw;    /*set the width of the image*/
+/*this is for all artworks*/
+.artwork {         
+    width: 0vw;   
 }
 
 /*1st student's artwork image*/
@@ -109,11 +110,12 @@ div:hover {
     transition-duration: 1s;
 }
 
-.art2 {                    /*2nd student's artwork image*/
-    width: 11.44vw;        /*set the width of the image*/
-    top: 35.7vw;           /*set the top position of the image*/
-    left: 12.7vw;          /*set the left position of the image*/
-    z-index: 10;           /*set the 2nd art to be in front of the wall*/
+/*2nd student's artwork image*/
+.art2 {                    
+    width: 11.44vw;        
+    top: 35.7vw;           
+    left: 12.7vw;          
+    z-index: 10;           
 }
 
 /*alicorn image*/
@@ -139,7 +141,7 @@ div:hover {
     transition-duration: 1s;
 }
 
- /*3rd student's artwork image*/
+/*3rd student's artwork image*/
 .art3 {                
     width: 7.27vw;     
     top: 28.08vw;       
