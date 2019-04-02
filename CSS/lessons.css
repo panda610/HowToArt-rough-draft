@@ -158,13 +158,6 @@ div:hover {
     80% {opacity: 0.6;}
 }
 
-/*content8 image*/
-.content8 {         
-    width: 95.95vw;    
-    top: 188vw;          
-    left: 1.8vw;       
-}
-
 /*popArts image*/
 .popArts {            
     width: 96.94vw;    
@@ -330,11 +323,4 @@ div:hover {
     opacity: 1;
     transform: rotate(360deg);
     transition-duration: 1s;
-}
-
-/*tryIt image*/
-.tryIt {               
-    width: 43.04vw;    
-    top: 210.5vw;          
-    left: 25.7vw;  
 }
