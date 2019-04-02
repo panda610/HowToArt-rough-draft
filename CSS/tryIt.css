@@ -1,11 +1,11 @@
 /*try it page*/
-/*This overflow is called to set what shows when content overflows. 
-    The hidden is called on the property to set the visibity as hidden*/
 body {    
-    overflow-x: hidden; 
+    overflow-x: hidden;
+    /*This overflow is called to set what shows when content overflows. 
+    The hidden is called on the property to set the visibity as hidden*/
 }
 
-/*affects every image in the page*/
+/*affects every image in the try it page*/
 img {
     width: 100%; 
 }
@@ -51,6 +51,7 @@ div:hover {
     top: 0.0vw;          
     left: 47.7vw;        
 }
+
 /*InstantInspo navbar*/
 .instantInspo {        
     width: 18.50vw;   
@@ -104,7 +105,7 @@ div:hover {
     animation-iteration-count: infinite;
 }
 
- /*content piece 4 image*/
+/*content piece 4 image*/
 .content4 {         
     width: 39.11vw;           
     top: 51.5vw;                
@@ -115,6 +116,7 @@ div:hover {
     animation-iteration-count: infinite;
 }
 
+/*give fluent effect to the content*/
 @keyframes sparkle {
     0% {opacity: 0.3;}
     20% {opacity: 0.9;}
