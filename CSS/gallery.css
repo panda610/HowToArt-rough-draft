@@ -23,7 +23,7 @@ div:hover {
     transition-duration: 0.3s;    
 }
 
-/*black and white background image of gallery page*/
+/*black and white background image*/
 .galleryBackground {       
     width: 100vw;         
     top: 0vw;              
@@ -38,28 +38,28 @@ div:hover {
     left: -0.3vw;         
 }
 
- /*About navbar */
+/*About navbar*/
 .about {               
     width: 18.9vw;      
     top: 1.2vw;         
     left: 28.9vw;       
 }
 
-/*Lessons navbar */
+/*Lessons navbar*/
 .lessons {               
     width: 19.89vw;       
     top: 0.8vw;          
     left: 45.8vw;        
 }
 
- /*InstantInspo navbar*/
+/*InstantInspo navbar*/
 .instantInspo {         
     width: 18.95vw;     
     top: .4vw;          
     left: 62.9vw;        
 }
 
- /*Gallery navbar for gallery page*/
+/*Gallery navbar*/
 .gallery {            
     width: 19.98vw;   
     top: 0vw;          
