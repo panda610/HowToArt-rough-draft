@@ -99,7 +99,7 @@ div:hover {
 }
 
 
-/*zoom in the polar bear when it's clicked*/  
+/*zoom in the polar bear when art1 is clicked*/  
 .art1:active + .polarBear {     
     width: 20vw;                
     top: 25vw;                  
@@ -130,7 +130,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zoom in the alicorn when it's clicked*/  
+/*zoom in the alicorn when art2 is clicked*/  
 .art2:active + .alicorn {       
     width: 40vw;                
     top: 25vw;                  
@@ -161,7 +161,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zoom in the sunMoon is clicked*/  
+/*zoom in the sunMoon when art3 is clicked*/  
 .art3:active + .sunMoon {    
     width: 40vw;              
     top: 25vw;                
@@ -191,7 +191,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zoom in the whiteForx when it's clicked*/  
+/*zoom in the whiteFox when art2 is clicked*/  
 .art4:active + .whiteFox {    
     width: 40vw;              
     top: 25vw;                 
@@ -220,7 +220,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zoom in on the sword when it's clicked*/  
+/*zoom in on the sword when art5 is clicked*/  
 .art5:active + .sword {        
     width: 25vw;               
     top: 25vw;                
@@ -250,7 +250,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
- /*zoom in the city when it's clicked*/  
+/*zoom in the city when art6 is clicked*/  
 .art6:active + .city {       
     width: 40vw;             
     top: 25vw;               
@@ -261,7 +261,7 @@ div:hover {
     transition-duration: 1s;
 }
 
- /*7th student's artwork image*/
+/*7th student's artwork image*/
 .art7 {                
     width: 10.37vw;   
     top: 16.5vw;       
@@ -280,7 +280,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zoom in the galaxy when it's clicked*/  
+/*zoom in the galaxy when art7 is clicked*/  
 .art7:active + .galaxy {       
     width: 40vw;               
     top: 25vw;                 
@@ -309,7 +309,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zoom in the bird when it's clicked*/  
+/*zoom in the bird when art8 is clicked*/  
 .art8:active + .bird {       
     width: 25vw;               
     top: 25vw;                 
@@ -339,7 +339,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zoom in when the bts image is clicked*/  
+/*zoom in the BTS when the art9 is clicked*/  
 .art9:active + .BTS {          
     width: 25vw;              
     top: 25vw;                
