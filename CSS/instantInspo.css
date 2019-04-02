@@ -1,10 +1,8 @@
 /*instantInspo page*/
-/*These(body-background) are called for the entire instantInspo page.*/
-
-/*This overflow is called to set what shows when content overflows. 
-The hidden is called on the property to set the visibity as hidden*/
 body {    
     overflow-x: hidden; 
+    /*This overflow is called to set what shows when content overflows. 
+      The hidden is called on the property to set the visibity as hidden*/
 }
 
 /*This affects every img in the instantInspo page*/
@@ -68,7 +66,7 @@ div:hover {
     left: 80vw;       
 }
 
-/*HowToArt navbar*/
+/*title image*/
 .title {            
     width: 57.78vw;     
     top: 8.31vw;       
@@ -159,7 +157,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zooms prompt*/
+/*zoom in the prompt1a when prompt1 is clicked*/
 .prompt1:active + .prompt1a {     
     width: 30vw;                
     top: 52vw;                  
@@ -188,7 +186,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zooms prompt*/
+/*zoom in the prompt2a when prompt2 is clicked*/
 .prompt2:active + .prompt2a {     
     width: 30vw;                
     top: 52vw;                  
@@ -217,7 +215,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zooms prompt*/
+/*zoom in the prompt3a when prompt3 is clicked*/
 .prompt3:active + .prompt3a {     
     width: 30vw;                
     top: 52vw;                 
@@ -246,7 +244,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zooms prompt*/
+/*zoom in the prompt4a when prompt4 is clicked*/
 .prompt4:active + .prompt4a {      
     width: 30vw;                
     top: 52vw;                  
@@ -275,7 +273,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zooms prompt*/
+/*zoom in the prompt5a when prompt5 is clicked*/
 .prompt5:active + .prompt5a {     
     width: 30vw;               
     top: 52vw;                 
@@ -304,7 +302,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zooms prompt*/
+/*zoom in the prompt6a when prompt6 is clicked*/
 .prompt6:active + .prompt6a {      
     width: 30vw;                
     top: 52vw;                  
@@ -332,7 +330,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zooms prompt*/
+/*zoom in the prompt7a when prompt7 is clicked*/
 .prompt7:active + .prompt7a {     
     width: 30vw;                
     top: 52vw;                  
@@ -361,7 +359,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zooms prompt*/
+/*zoom in the prompt8a when prompt8 is clicked*/
 .prompt8:active + .prompt8a {       
     width: 30vw;                
     top: 52vw;                  
@@ -389,7 +387,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*zooms prompt*/
+/*zoom in the prompt9a when prompt9 is clicked*/
 .prompt9:active + .prompt9a {      
     width: 30vw;                
     top: 52vw;                 
