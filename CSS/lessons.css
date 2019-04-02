@@ -1,12 +1,11 @@
 /*lessons page*/
-/*These(body-background) are called for the entire instantInspo page.*/
 body {    
     overflow-x: hidden; 
     /*This overflow is called to set what shows when content overflows. 
       The hidden is called on the property to set the visibity as hidden*/
 }
 
-/*This affects every img in the instantInspo page*/
+/*This affects every img in the lessons page*/
 img {               
     width: 100%;    
 }
