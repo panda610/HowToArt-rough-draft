@@ -24,7 +24,7 @@ div:hover {
     transition-duration: 0.3s;    
 }
 
-/*black and white background image of lessons page*/
+/*black and white background image*/
 .lessonsBackground {       
     width: 100vw;          
     top: 0vw;              
@@ -117,7 +117,7 @@ div:hover {
     animation-iteration-count: infinite;
     
 }
-/*Content5 image*/
+/*content5 image*/
 .content5 {            
     width: 91.44vw;    
     top: 74.5vw;          
@@ -158,6 +158,7 @@ div:hover {
     60% {opacity: 1;}
     80% {opacity: 0.6;}
 }
+
 /*content8 image*/
 .content8 {         
     width: 95.95vw;    
@@ -172,11 +173,12 @@ div:hover {
     left: 1.3vw;        
 }
 
-/*it starts from a zoom in phase of an image then it expands out*/
+/*this is for all popArtworks*/
 .popArtWorks {
     width: 0vw;
 }
-/*Maybe image when it's been rotated*/
+
+/*maybeRotated image*/
 .maybeRotated {            
     width: 20.57vw;        
     top: 161.9vw;           
@@ -196,7 +198,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*rotates the maybe image*/
+/*rotate and zoom in the maybe image when maybeRotated is clicked*/
 .maybeRotated:active + .maybe {       
     width: 30vw;               
     top: 155vw;                 
@@ -206,7 +208,8 @@ div:hover {
     transform: rotate(0deg);
     transition-duration: 1s;
 }
-/*frida image after it's been rotated*/
+
+/*fridaRotated image*/
 .fridaRotated {                    
     width: 13.99vw;        
     top: 153.1vw;           
@@ -226,7 +229,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*Rotates the frida image*/
+/*rotate and zoom in the frida image when fridaRotated is clicked*/
 .fridaRotated:active + .frida {     
     width: 30vw;                
     top: 150vw;                  
@@ -237,7 +240,7 @@ div:hover {
     transition-duration: 1s;
 }
 
-/*Image of inthecar when it's been rotated*/
+/*inTheCarRotated image*/
 .inTheCarRotated {                    
     width: 25.92vw;        
     top: 165.7vw;           
@@ -257,7 +260,7 @@ div:hover {
     transition-duration: 0.1s;
 }
 
-/*Makes the inthecar image to rotate*/
+/*rotate and zoom in the "inTheCar" image when inTheCarRotated is clicked*/
 .inTheCarRotated:active + .inTheCar {     
     width: 30vw;                
     top: 155vw;                  
@@ -268,7 +271,7 @@ div:hover {
     transition-duration: 1s;
 }
 
-/*Sets the position when the varoom image has rotated*/
+/*varoomRotated image*/
 .varoomRotated {                   
     width: 15.98vw;        
     top: 150.6vw;           
@@ -287,7 +290,8 @@ div:hover {
     transform: rotate(2deg);
     transition-duration: 0.1s;
 }
-/*rotates the varoom image clicked*/  
+
+/*rotate and zoom in the varoom image when varoomRotated is clicked*/  
 .varoomRotated:active + .varoom {      
     width: 30vw;                
     top: 155vw;                 
@@ -297,7 +301,8 @@ div:hover {
     transform: rotate(0deg);
     transition-duration: 1s;
 }
-/*shotMarilyns rotated image*/
+
+/*shotMarilynsRotated image*/
 .shotMarilynsRotated {                   
     width: 22.71vw;        
     top: 159vw;          
@@ -316,7 +321,8 @@ div:hover {
     transform: rotate(340deg);
     transition-duration: 0.1s;
 }
-/*zoom in the polar bear when it's clicked*/  
+
+/*rotate and zoom in the shotMarilyns image when shotMarilynsRotated is clicked*/
 .shotMarilynsRotated:active + .shotMarilyns {    
     width: 30vw;                
     top: 155vw;                  
@@ -326,8 +332,10 @@ div:hover {
     transform: rotate(360deg);
     transition-duration: 1s;
 }
-/*title tryIt image*/
+
+/*tryIt image*/
 .tryIt {               
     width: 43.04vw;    
     top: 210.5vw;          
-    left: 25.7vw;        
+    left: 25.7vw;  
+}
